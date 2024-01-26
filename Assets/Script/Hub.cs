@@ -13,6 +13,7 @@ public class Hub : MonoBehaviour
 
     public Button ForestButton; // Reference to the forest button.
     public Vector3 forestPosition = new Vector3(0.35f, 1.36f, -15f);
+    //public Vector3 antarticPosition = new Vector3()
     public float playerRotationY = -20f;
     public Button urbanButton;
     public Button antarticButton;
