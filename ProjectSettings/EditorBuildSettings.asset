@@ -8,9 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Lightmapping Example/Lightmap Final.unity
     guid: fb0ca1eace2cfe845864fc03db83c705
-  - enabled: 1
+  - enabled: 0
     path: Assets/Unity VR Template/Scenes/SampleScene.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
+  - enabled: 1
+    path: Assets/Ethan_Walton_Deaves/assets/Sceens/scene/City.unity
+    guid: 6b0f7d181e36e5648bdceb3051d92648
+  - enabled: 1
+    path: Assets/Ethan_Walton_Deaves/assets/Sceens/City 2.unity
+    guid: b87f7276be6f4cd41a59415663bf012e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: fc52e5fd416550f4dafe21b2532c403f,
       type: 2}
