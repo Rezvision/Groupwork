@@ -9,13 +9,13 @@ public class SceneSwitcher : MonoBehaviour
 
     void Start()
     {
-        hub = GameObject.FindGameObjectWithTag("hub").GetComponent<Hub>();
-
-        if (hub.isForest) 
-        {
         StartCoroutine(LoadSceneAfterDelay());
+        //hub = GameObject.FindGameObjectWithTag("hub").GetComponent<Hub>();
 
-        }
+        //if (hub.isForest) 
+        //{
+
+        //}
     }
 
     IEnumerator LoadSceneAfterDelay()
