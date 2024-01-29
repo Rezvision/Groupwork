@@ -6,9 +6,28 @@ public class AnimalKiller : MonoBehaviour
     public GameObject replacementPrefab; // Drag and drop the new object prefab in the Unity Editor
     public float rotationAmount = 170f; // Set the rotation amount in the Unity Editor
     public float upwardOffset = 1.0f; // Adjust the value based on how much you want the object to move up
+    private Hub hub;
+    public GameObject objectToToggle; // Reference to the GameObject you want to turn on or off
+    private bool _hasLoadedForest;
+
     void Start()
     {
-        StartCoroutine(ManipulateObject());
+        objectToToggle.SetActive(false);
+        hub = GameObject.FindGameObjectWithTag("hub").GetComponent<Hub>();
+
+       
+                
+    }
+    private void Update()
+    {
+        if (hub.isForest)
+        {
+            if (!_hasLoadedForest)
+            {
+                _hasLoadedForest = true;
+                StartCoroutine(ManipulateObject());
+            }
+        }
     }
 
     IEnumerator ManipulateObject()
@@ -30,5 +49,6 @@ public class AnimalKiller : MonoBehaviour
 
         // Remove the current object
         Destroy(gameObject);
+        objectToToggle.SetActive(true);
     }
 }

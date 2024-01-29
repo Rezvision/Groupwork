@@ -7,6 +7,8 @@ TagManager:
   - fire
   - hub
   - Button
+  - enemy
+  - ThrownObject
   layers:
   - Default
   - TransparentFX

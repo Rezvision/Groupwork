@@ -37,7 +37,18 @@ public class Hub : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (!isForest) 
+        { 
+        if (forestTrigger.action.IsPressed()) // adding buttton interaction for replaybutton
+        {
+            Forest();
+        }
+        }
+        //if (exitTrigger.action.IsPressed())
+        //{
+        //    ExitGame();
+        //}
+
     }
     public void Forest()
     {
