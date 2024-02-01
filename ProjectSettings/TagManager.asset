@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - fire
+  - hub
+  - Button
+  - enemy
+  - ThrownObject
+  - enemynum
   layers:
   - Default
   - TransparentFX

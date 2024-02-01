@@ -8,9 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Lightmapping Example/Lightmap Final.unity
     guid: fb0ca1eace2cfe845864fc03db83c705
-  - enabled: 1
+  - enabled: 0
     path: Assets/Unity VR Template/Scenes/SampleScene.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: be23755643325cf4085ae5c5954ba706
+  - enabled: 1
+    path: Assets/Hovl Studio/Procedural fire/Demo scene/firescene.unity
+    guid: 4eef2ef4e641de143ba1000e4c684d1a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: fc52e5fd416550f4dafe21b2532c403f,
       type: 2}
