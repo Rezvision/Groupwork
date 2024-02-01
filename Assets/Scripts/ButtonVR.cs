@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class ButtonVR : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class ButtonVR : MonoBehaviour
     GameObject presser;
     AudioSource sound;
     bool isPressed;
+    public Vector3 offset = new Vector3(0, 50, 0);
 
     void Start()
     {
@@ -41,7 +43,11 @@ public class ButtonVR : MonoBehaviour
         }
     }
 
-    //public void SpawnSphere()
+    public void SpawnTextBox()
+    {
+
+    }
+
 
 
 

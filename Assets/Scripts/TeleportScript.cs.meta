@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fe5bdd35115b41b4693cbf2db0db4799
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - teleportTarget: {instanceID: 0}
+  - teleportTarget2: {instanceID: 0}
+  - thrustActionLeft: {fileID: 3374538806093104138, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  - thrustActionRight: {fileID: -2039779463707918631, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
