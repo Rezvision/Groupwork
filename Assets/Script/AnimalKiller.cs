@@ -13,29 +13,15 @@ public class AnimalKiller : MonoBehaviour
     void Start()
     {
         objectToToggle.SetActive(false);
-        hub = GameObject.FindGameObjectWithTag("hub").GetComponent<Hub>();
-
-       
-                
+        StartCoroutine(ManipulateObject());
     }
-    private void Update()
-    {
-        if (hub.isForest)
-        {
-            if (!_hasLoadedForest)
-            {
-                _hasLoadedForest = true;
-                StartCoroutine(ManipulateObject());
-            }
-        }
-    }
-
+    
     IEnumerator ManipulateObject()
     {
         yield return new WaitForSeconds(30f); // Wait for 30 seconds
 
         // Rotate the object by 90 degrees
-        transform.Rotate(Vector3.back, 60f);
+        transform.Rotate(Vector3.back, 90f);
         //moce the object slightly higher so it does not collide with floor
         transform.Translate(Vector3.up * upwardOffset);
 

@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,6 +10,8 @@ public class PlayerHealth : MonoBehaviour
     public Slider healthSlider;
     public Image healthSliderFill;
     public float damageValue;
+    public TextMeshPro enemyCountText;  // Reference to the TextMeshPro component to display the enemy count
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,7 +45,8 @@ public class PlayerHealth : MonoBehaviour
         if (currentHealth <= 0) 
         {
             Debug.Log("The player is dead");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene("Hub");
             //Application.Quit();
         }
 

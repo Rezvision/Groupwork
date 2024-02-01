@@ -9,6 +9,7 @@ TagManager:
   - Button
   - enemy
   - ThrownObject
+  - enemynum
   layers:
   - Default
   - TransparentFX

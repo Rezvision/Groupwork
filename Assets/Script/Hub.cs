@@ -55,8 +55,9 @@ public class Hub : MonoBehaviour
         // Display the game over UI and appropriate message.
         clickSound.pitch = UnityEngine.Random.Range(0.5f, 1.5f);
         clickSound.Play();
-        player.transform.position = forestPosition; //player moved to target position /*transform.GetPositionAndRotation(out targetPosition,out Quaternion.ide);*/
-        player.transform.rotation = Quaternion.Euler(0f, playerRotationY, 0f);
+        SceneManager.LoadScene("Forest");
+        //player.transform.position = forestPosition; //player moved to target position /*transform.GetPositionAndRotation(out targetPosition,out Quaternion.ide);*/
+        //player.transform.rotation = Quaternion.Euler(0f, playerRotationY, 0f);
         isForest = true;
 
     }

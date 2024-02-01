@@ -4,27 +4,14 @@ using UnityEngine;
 public class FloorMaterialChanger : MonoBehaviour
 {
     public Material newMaterial; // Drag and drop the new material in the Unity Editor
-    private Hub hub;
-    private bool _hasLoadedForest;
+
 
     void Start()
     {
-        hub = GameObject.FindGameObjectWithTag("hub").GetComponent<Hub>();
+        StartCoroutine(ChangeMaterialAfterDelay());
 
-        
     }
-    private void Update()
-    {
-        if (hub.isForest)
-        {
-            if (!_hasLoadedForest)
-            {
-                _hasLoadedForest = true;
-                StartCoroutine(ChangeMaterialAfterDelay());
-            }
-        }
-    }
-
+  
     IEnumerator ChangeMaterialAfterDelay()
     {
         yield return new WaitForSeconds(40f); // Wait for 40 seconds
