@@ -1,4 +1,4 @@
-# Project Name: ClimateAware VR Experience
+# ClimateAware VR Experience
 
 ![antartic](https://github.com/Rezvision/Groupwork/assets/147525543/65c13360-b505-442a-80e7-81738fdf9df5)
 ![Screenshot (133)](https://github.com/Rezvision/Groupwork/assets/147525543/3bfc1662-2ece-475a-818e-eef36cf82867)
