@@ -1,59 +1,26 @@
-# Unity-Meta-Quest-Template
-Unity template project optimised for Meta Quest devices.
-Current Project Version Unity 2022.3.2f
+# Project Name: ClimateAware VR Experience
 
-Changes from default Unity project with Android build target:  
+![antartic](https://github.com/Rezvision/Groupwork/assets/147525543/65c13360-b505-442a-80e7-81738fdf9df5)
+![Screenshot (133)](https://github.com/Rezvision/Groupwork/assets/147525543/3bfc1662-2ece-475a-818e-eef36cf82867)
+![urban](https://github.com/Rezvision/Groupwork/assets/147525543/b8d8e5ee-77d6-48bf-9d97-c1f4493d27c5)
 
-Packages:  
-Installed XR Plug-in Management. Targets Quest, Quest 2, Quest Pro  
-Installed OpenXR Plugin  
-Installed Oculus XR Plugin  
-Installed XR Interaction Toolkit version 2.4.0
-Installed XR Hands 1.2.1
-Installed Meta OpenXR Feature 0.1.1
-URP Samples imported (includes useful blob shadow shader)  
+Description:
+This GitHub repository contains the source code and assets for the "ClimateAware VR Experience" project, which aims to raise awareness about the environmental impacts of global warming in three distinct areas: Antarctic, Forest, and Urban scenes. The project utilizes virtual reality (VR) technology to immerse users in realistic simulations of these environments, showcasing the effects of climate change.
 
-Quality Settings:  
-Custom Quality profiles  for Quest, Quest 2, Quest Pro, Quest 3. (Default Quest 2)  
-Vsync disabled  
-Anisotropic Textures set to Per Texture.  
-Shadowmask Mode set to Shadowmask  
-LOD Bias set to 0.7  
-Skin Weights set to 2 Bones  
+Features:
+Antarctic Scene:
 
-Player Settings:  
-Auto Graphics API disabled, set to OpenGL ES 3.0  
-Texture Compression format set to ATSC  
-Minimum API Level set to Android 10.0 (API Level 29)  
-Lightmap encoding set to High Quality  
-HDR Cubemap encoding set to High Quality  
-Use Incremental GC enabled 
-Scripting Backend set to IL2CPP  
-IL2CPP Code generation set to Faster (smaller) builds *Change this to Faster runtime for release build  
-Target Architecture set to Arm64  
-Active Input Handling set to Both  
-Optimize Mesh Data enabled   
+Experience the Antarctic environment with realistic visuals and environmental conditions.
+Observe the impact of global warming on ice sheets, wildlife, and the overall ecosystem.
+Forest Scene:
 
+Immerse yourself in a virtual forest setting, highlighting the consequences of climate change on vegetation, biodiversity, and forest ecosystems.
+Witness the effects of prolonged droughts, increased temperatures, and changing precipitation patterns.
+Urban Scene:
 
-Physics Settings:  
-Reuse Collision Callbacks enabled  
-Default Max Angular Speed set to 7 
-Enabled Improved Patch Friction 
+Explore an urban environment to understand the implications of global warming on cities and human habitats.
+Visualize rising temperatures, extreme weather events, and the challenges faced by urban populations.
+Teleportation Feature:
 
-Time Settings:  
-Maximum Allowed Timestep set to 0.0138 (for 72 Hz)  
-
-URP Renderer Settings:  
-Shadows – Transparent Receive Shadows disabled   
-
-URP Pipeline asset settings for Quest 2: (minor differences for Quest 1 and Quest Pro)  
-Disable Terrain Holes  
-Main Light – Cast Shadows disabled  
-Additional Lights set to Per Pixel  
-
-Notes:  
-The project is set up to have to realtime shadows and no additional lights.
-Adjust URP shadow settings according to the needs of your game/app.   
-For release builds enable Low Overhead Mode under Oculus XR Plug-in Management options.  
-
-Cornell Box model taken form Sketchfab - Cornell Box- Original - Download Free 3D model by t-ly (@t-ly) https://sketchfab.com/3d-models/cornell-box-original-0d18de8d108c4c9cab1a4405698cc6b6
+Navigate between scenes seamlessly using the teleportation feature.
+Press a designated button in the hub to transport the user to the Antarctic, Forest, or Urban scene instantly.
