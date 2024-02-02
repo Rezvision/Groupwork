@@ -40,3 +40,15 @@ Canopus-III Low Poly Sci-fi Desert Unit by Planesfar Studio
 
 Low Poly Tree Pack by Broken Vector
 
+Low-Poly Simple Nature Pack by JustCreate
+
+Winter Mountains and Stamps by NatureManufacture
+
+Trash Low Poly Cartoon Pack by BlankfaceStanislav
+
+Terrain Sample Asset Pack by Unity Technologies
+
+Snowy Low-Poly Trees by False Wisp Studios
+
+
+
